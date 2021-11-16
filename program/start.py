@@ -70,7 +70,7 @@ async def start_(client: Client, message: Message):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("🥀 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
+                    InlineKeyboardButton("❤️ Owner", url=f"https://t.me/cute_boy701"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -104,7 +104,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ Group", url=f"https://t.me/terayaarhoomai"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/maxopeditz"
+                    "🥀 Channel", url=f"https://t.me/maxopeditz"
                 ),
             ]
         ]
