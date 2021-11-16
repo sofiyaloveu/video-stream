@@ -20,7 +20,7 @@ bttn = InlineKeyboardMarkup(
 
 
 bcl = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🗑 Close", callback_data="cls")]]
+    [[InlineKeyboardButton("🥀 Close", callback_data="cls")]]
 )
 
 
@@ -46,10 +46,10 @@ async def skip(client, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="• Mᴇɴᴜ", callback_data="cbmenu"
+                    text="•🥀 Mᴇɴᴜ", callback_data="cbmenu"
                 ),
                 InlineKeyboardButton(
-                    text="• Cʟᴏsᴇ", callback_data="cls"
+                    text="•🥀 Cʟᴏsᴇ", callback_data="cls"
                 ),
             ]
         ]
@@ -67,7 +67,7 @@ async def skip(client, m: Message):
         else:
             await m.reply_photo(
                 photo=f"{IMG_3}",
-                caption=f"⏭ **Skipped to the next track.**\n\n🏷 **Name:** [{op[0]}]({op[1]})\n💭 **Chat:** `{chat_id}`\n💡 **Status:** `Playing`\n🎧 **Request by:** {m.from_user.mention()}",
+                caption=f"⏭ **Skipped to the next track.**\n\n🏷 **Name:** [{op[0]}]({op[1]})\n💡 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {m.from_user.mention()}",
                 reply_markup=keyboard,
             )
     else:
@@ -99,7 +99,7 @@ async def stop(client, m: Message):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await m.reply("✅ **streaming has ended.**")
+            await m.reply("**😕**")
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
