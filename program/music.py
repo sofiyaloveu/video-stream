@@ -57,8 +57,8 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="•🥀 Mᴇɴᴜ", callback_data="cbmenu"),
-                InlineKeyboardButton(text="•🥀 Cʟᴏsᴇ", callback_data="cls"),
+                InlineKeyboardButton(text="•🥀 ꜱᴜᴘᴘᴏʀᴛ", callback_data="cbmenu"),
+                InlineKeyboardButton(text="•🥀 ᴄʜᴀɴɴᴇʟ", callback_data="cls"),
             ]
         ]
     )
@@ -166,7 +166,7 @@ async def play(c: Client, m: Message):
                     "» reply to an **audio file** or **give something to search.**"
                 )
             else:
-                suhu = await m.reply("**⚡**")
+                suhu = await m.reply("**🤔**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
