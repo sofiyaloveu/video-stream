@@ -88,7 +88,7 @@ async def play(c: Client, m: Message):
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
         return
     if not a.can_restrict_members:
-        await m.reply_text("missing required permission:" + "\n\n» ❌ __Restrict users__")
+        await m.reply_text("missing required permission:" - "\n\n» ❌ __Restrict users__")
         return
     try:
         ubot = await user.get_me()
@@ -301,7 +301,7 @@ async def stream(c: Client, m: Message):
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
         return
     if not a.can_restrict_members:
-        await m.reply_text("missing required permission:" + "\n\n» ❌ __Restrict users__")
+        await m.reply_text("missing required permission:" - "\n\n» ❌ __Restrict users__")
         return
     try:
         ubot = await user.get_me()
