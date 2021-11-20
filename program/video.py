@@ -63,8 +63,8 @@ async def vplay(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="•🥀 Mᴇɴᴜ", callback_data="cbmenu"),
-                InlineKeyboardButton(text="•🥀 Cʟᴏsᴇ", callback_data="cls"),
+                InlineKeyboardButton(text="•🥀 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="•🥀 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/maxopeditz"),
             ]
         ]
     )
@@ -92,9 +92,6 @@ async def vplay(c: Client, m: Message):
         return
     if not a.can_invite_users:
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
-        return
-    if not a.can_restrict_members:
-        await m.reply_text("missing required permission:" + "\n\n» ❌ __Restrict users__")
         return
     try:
         ubot = await user.get_me()
@@ -125,7 +122,7 @@ async def vplay(c: Client, m: Message):
 
     if replied:
         if replied.video or replied.document:
-            loser = await replied.reply("⚡")
+            loser = await replied.reply("🤔")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -186,7 +183,7 @@ async def vplay(c: Client, m: Message):
                     "» reply to an **video file** or **give something to search.**"
                 )
             else:
-                loser = await m.reply("⚡")
+                loser = await m.reply("🤔")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 Q = 720
@@ -240,7 +237,7 @@ async def vplay(c: Client, m: Message):
                 "» reply to an **video file** or **give something to search.**"
             )
         else:
-            loser = await m.reply("⚡")
+            loser = await m.reply("🤔")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
@@ -296,8 +293,8 @@ async def vstream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="• Mᴇɴᴜ", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data="cls"),
+                InlineKeyboardButton(text="•🥀 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="•🥀 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/maxopeditz"),
             ]
         ]
     )
@@ -325,9 +322,6 @@ async def vstream(c: Client, m: Message):
         return
     if not a.can_invite_users:
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
-        return
-    if not a.can_restrict_members:
-        await m.reply_text("missing required permission:" + "\n\n» ❌ __Restrict users__")
         return
     try:
         ubot = await user.get_me()
