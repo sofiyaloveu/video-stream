@@ -213,7 +213,7 @@ async def play(c: Client, m: Message):
                 "» reply to an **audio file** or **give something to search.**"
             )
         else:
-            suhu = await m.reply("⚡")
+            suhu = await m.reply("🤔")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -296,9 +296,6 @@ async def stream(c: Client, m: Message):
         return
     if not a.can_invite_users:
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
-        return
-    if not a.can_restrict_members:
-        await m.reply_text("missing required permission:" - "\n\n» ❌ __Restrict users__")
         return
     try:
         ubot = await user.get_me()
