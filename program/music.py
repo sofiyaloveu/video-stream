@@ -57,8 +57,8 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="•🥀 ꜱᴜᴘᴘᴏʀᴛ", callback_data="cbmenu"),
-                InlineKeyboardButton(text="•🥀 ᴄʜᴀɴɴᴇʟ", callback_data="cls"),
+                InlineKeyboardButton(text="•🥀 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="•🥀 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/maxopeditz"),
             ]
         ]
     )
@@ -86,9 +86,6 @@ async def play(c: Client, m: Message):
         return
     if not a.can_invite_users:
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
-        return
-    if not a.can_restrict_members:
-        await m.reply_text("missing required permission:" - "\n\n» ❌ __Restrict users__")
         return
     try:
         ubot = await user.get_me()
@@ -270,8 +267,8 @@ async def stream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="•🥀 Mᴇɴᴜ", callback_data="cbmenu"),
-                InlineKeyboardButton(text="•🥀 Cʟᴏsᴇ", callback_data="cls"),
+                InlineKeyboardButton(text="•🥀 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="•🥀 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/maxopeditz"),
             ]
         ]
     )
