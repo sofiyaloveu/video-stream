@@ -59,7 +59,7 @@ async def skip(client, m: Message):
     if len(m.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await m.reply("❌ nothing is currently playing")
+            await m.reply("🦋 nothing is currently playing")
         elif op == 1:
             await m.reply("🦋 __Queues__ **is empty.**\n\n**• userbot leaving voice chat**")
         elif op == 2:
@@ -103,7 +103,7 @@ async def stop(client, m: Message):
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
-        await m.reply("❌ **nothing in streaming**")
+        await m.reply("🦋 **nothing in streaming**")
 
 
 @Client.on_message(
@@ -121,7 +121,7 @@ async def pause(client, m: Message):
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
-        await m.reply("❌ **nothing in streaming**")
+        await m.reply("🦋 **nothing in streaming**")
 
 
 @Client.on_message(
@@ -139,7 +139,7 @@ async def resume(client, m: Message):
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
-        await m.reply("❌ **nothing in streaming**")
+        await m.reply("🦋 **nothing in streaming**")
 
 
 @Client.on_message(
