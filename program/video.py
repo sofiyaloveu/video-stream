@@ -356,7 +356,7 @@ async def vstream(c: Client, m: Message):
             else:
                 Q = 720
                 await m.reply(
-                    "» __only 720, 480, 360 allowed__ \n💡 **now streaming video in 720p**"
+                    "» __only 720, 480, 360 allowed__ \n🦋 **now streaming video in 720p**"
                 )
             loser = await m.reply("⚡")
         else:
@@ -379,7 +379,7 @@ async def vstream(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"💡 **Track added to queue »** `{pos}`\n\n **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                    caption=f"🦋 **Track added to queue »** `{pos}`\n\n **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                     reply_markup=keyboard,
                 )
             else:
