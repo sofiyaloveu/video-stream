@@ -85,11 +85,6 @@ async def vplay(c: Client, m: Message):
             "missing required permission:" + "\n\n» ❌ __Manage video chat__"
         )
         return
-    if not a.can_delete_messages:
-        await m.reply_text(
-            "missing required permission:" + "\n\n» ❌ __Delete messages__"
-        )
-        return
     if not a.can_invite_users:
         await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
         return
@@ -313,11 +308,6 @@ async def vstream(c: Client, m: Message):
     if not a.can_manage_voice_chats:
         await m.reply_text(
             "missing required permission:" + "\n\n» ❌ __Manage video chat__"
-        )
-        return
-    if not a.can_delete_messages:
-        await m.reply_text(
-            "missing required permission:" + "\n\n» ❌ __Delete messages__"
         )
         return
     if not a.can_invite_users:
