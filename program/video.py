@@ -175,7 +175,7 @@ async def vplay(c: Client, m: Message):
         else:
             if len(m.command) < 2:
                 await m.reply(
-                    "» ᴡʜᴀᴛ  **ʏᴏᴜ** ᴡᴀɴᴛ **ᴘʟᴀʏ🦋🧐.**"
+                    "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
                 )
             else:
                 loser = await m.reply("🤔")
@@ -229,7 +229,7 @@ async def vplay(c: Client, m: Message):
     else:
         if len(m.command) < 2:
             await m.reply(
-                "» ᴡʜᴀᴛ  **ʏᴏᴜ** ᴡᴀɴᴛ **ᴘʟᴀʏ🦋🧐.**"
+                "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
             )
         else:
             loser = await m.reply("🤔")
