@@ -134,7 +134,7 @@ async def vplay(c: Client, m: Message):
                 else:
                     Q = 720
                     await loser.edit(
-                        "» __only 720, 480, 360 allowed__ \n💡 **now streaming video in 720p**"
+                        "» __only 720, 480, 360 allowed__ \n🦋 **now streaming video in 720p**"
                     )
             try:
                 if replied.video:
@@ -150,7 +150,7 @@ async def vplay(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **Name:** [{songname}]({link})\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                    caption=f"💡 **Track added to queue »** `{pos}`\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                     reply_markup=keyboard,
                 )
             else:
@@ -174,7 +174,7 @@ async def vplay(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"{IMG_2}",
-                    caption=f"💡 **Video streaming started.**\n\n🏷 **Name:** [{songname}]({link})\n💡 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                    caption=f"🦋 **Video streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                     reply_markup=keyboard,
                 )
         else:
@@ -205,7 +205,7 @@ async def vplay(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=f"{IMG_1}",
-                                caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **Name:** [{songname}]({url})\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                                caption=f"🦋 **Track added to queue »** `{pos}`\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                                 reply_markup=keyboard,
                             )
                         else:
@@ -224,7 +224,7 @@ async def vplay(c: Client, m: Message):
                                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                                 await m.reply_photo(
                                     photo=f"{IMG_2}",
-                                    caption=f"💡 **Video streaming started.**\n\n🏷 **Name:** [{songname}]({url})\n💡 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                                    caption=f"🦋 **Video streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                                     reply_markup=keyboard,
                                 )
                             except Exception as ep:
@@ -259,7 +259,7 @@ async def vplay(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=f"{IMG_1}",
-                            caption=f"💡 **Track added to queue »** `{pos}`\n\n🏷 **Name:** [{songname}]({url})\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                            caption=f"🦋 **Track added to queue »** `{pos}`\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                             reply_markup=keyboard,
                         )
                     else:
@@ -278,7 +278,7 @@ async def vplay(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"💡 **Video streaming started.**\n\n🏷 **Name:** [{songname}]({url})\n💡 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                                caption=f"🦋 **Video streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
@@ -416,7 +416,7 @@ async def vstream(c: Client, m: Message):
                     )
                     await m.reply_photo(
                         photo=f"{IMG_2}",
-                        caption=f"💡 **[Video live]({link}) stream started.**\n\n💡 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                        caption=f"🦋 **[Video live]({link}) stream started.**\n\n🦋 **Status:** `Playing`\n🎧 **🦋ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                         reply_markup=keyboard,
                     )
                 except Exception as ep:
