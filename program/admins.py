@@ -101,7 +101,7 @@ async def stop(client, m: Message):
             clear_queue(chat_id)
             await m.reply("**😕**")
         except Exception as e:
-            await m.reply(f"🚫 **error:**\n\n`{e}`")
+            await m.reply(f"🚫 **what you want to play🧐:**\n\n`{e}`")
     else:
         await m.reply("🦋 **nothing in streaming**")
 
@@ -173,7 +173,7 @@ async def unmute(client, m: Message):
                 "🔊 **Userbot unmuted.**\n\n• **To mute the userbot, use the**\n» /mute command."
             )
         except Exception as e:
-            await m.reply(f"🚫 **error:**\n\n`{e}`")
+            await m.reply(f"🚫 **what you want to play 🧐:**\n\n`{e}`")
     else:
         await m.reply("🦋 **nothing in streaming**")
 
@@ -272,7 +272,7 @@ async def cbunmute(_, query: CallbackQuery):
                 "🔊 userbot succesfully unmuted", reply_markup=bttn
             )
         except Exception as e:
-            await query.edit_message_text(f"🚫 **error:**\n\n`{e}`", reply_markup=bcl)
+            await query.edit_message_text(f"🚫 **what you want to play 🧐:**\n\n`{e}`", reply_markup=bcl)
     else:
         await query.answer("🦋 nothing is currently streaming", show_alert=True)
 
