@@ -1,15 +1,15 @@
 {
     "name": "Video x Music Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/1c41ded2dd871eb36bd7e.png",
+    "logo": "https://telegra.ph/file/0824baeceeb1f6d3223de.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/levinachannel",
-    "repository": "https://github.com/levina-lab/video-stream",
+    "website": "https://t.me/terayaarhoomai",
+    "repository": "https://github.com/mrvk1703/video-stream",
     "success_url": "https://t.me/dlwrml",
     "env": {
         "API_ID": {
@@ -27,6 +27,7 @@
         "BOT_USERNAME": {
             "description": "your bot username from @BotFather",
             "required": true
+            "value": "Luckyybot"
         },
         "BOT_NAME": {
             "description": "fill with your bot name from @BotFather",
@@ -35,6 +36,7 @@
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username account without @",
             "required": true
+            "value": "cute_boy724"
         },
         "SESSION_NAME": {
             "description": "fill with the pyrogram String Session",
@@ -43,26 +45,27 @@
         "SUDO_USERS": {
             "description": "list of user ids to be added to sudo member list, or just fill with your id",
             "required": true
+            "value": "1729094176"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "VeezSupportGroup"
+            "value": "terayaarhoomai"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "levinachannel"
+            "value": "Maxopeditz"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "dlwrml"
+            "value": "Cute_boy701"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "Levina"
+            "value": "Lucky"
         }
     },
     "addons": [],
