@@ -77,7 +77,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🦋 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 🦋", url=f"https://t.me/terayaarhoomai")
+                        " ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 🦋", url=f"https://t.me/terayaarhoomai")
                 ]
             ]
         ),
