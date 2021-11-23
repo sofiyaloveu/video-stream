@@ -67,10 +67,10 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("🦋 Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("🦋 Basic Guide 🦋", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("🦋 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("🦋 owner", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🦋 Commands 🦋", callback_data="cbcmds"),
+                    InlineKeyboardButton("🦋 owner 🦋", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
