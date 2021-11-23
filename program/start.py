@@ -52,7 +52,7 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""IMG_1 = getenv("IMG_1", "https://telegra.ph/file/3c34f75bffc593c8657c8.jpg") \n\n ✨ **Welcome {message.from_user.mention()} !**\n
+        f"https://telegra.ph/file/3c34f75bffc593c8657c8.jpg"""✨ **Welcome {message.from_user.mention()} !**\n
 🦋 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the Lucky server!**
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 🦋 Commands button!**
