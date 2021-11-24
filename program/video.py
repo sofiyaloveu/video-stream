@@ -117,7 +117,7 @@ async def vplay(c: Client, m: Message):
 
     if replied:
         if replied.video or replied.document:
-            loser = await replied.reply("🤔")
+            loser = await replied.reply("😘")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -178,7 +178,7 @@ async def vplay(c: Client, m: Message):
                     "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
                 )
             else:
-                loser = await m.reply("🤔")
+                loser = await m.reply("😘")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 Q = 720
@@ -232,7 +232,7 @@ async def vplay(c: Client, m: Message):
                 "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
             )
         else:
-            loser = await m.reply("🤔")
+            loser = await m.reply("😘")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
