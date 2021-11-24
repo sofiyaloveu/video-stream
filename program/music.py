@@ -146,7 +146,7 @@ async def play(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"{IMG_2}",
-                    caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ**\n🦋 **Status:** `**ᴘʟᴀʏɪɴɢ 🦋**`\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                    caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ**\n🦋 **Status: ᴘʟᴀʏɪɴɢ 🦋**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                     reply_markup=keyboard,
                 )
              except Exception as e:
@@ -195,7 +195,7 @@ async def play(c: Client, m: Message):
                                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                                 await m.reply_photo(
                                     photo=f"{IMG_2}",
-                                    caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status:** `**ᴘʟᴀʏɪɴɢ🦋**`\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                                    caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                                     reply_markup=keyboard,
                                 )
                             except Exception as ep:
@@ -245,7 +245,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status:** `**ᴘʟᴀʏɪɴɢ🦋**`\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                                caption=f"🦋 **Music streaming started.**\n\n🦋 **ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ:**\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
@@ -356,7 +356,7 @@ async def stream(c: Client, m: Message):
                     )
                     await m.reply_photo(
                         photo=f"{IMG_2}",
-                        caption=f"🦋 **[Music live]({link}) stream started.**\n\n🦋 **Status:** `**ᴘʟᴀʏɪɴɢ🦋**`\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
+                        caption=f"🦋 **[Music live]({link}) stream started.**\n\n🦋 **Status: ᴘʟᴀʏɪɴɢ🦋**\n**🦋 ʟᴜᴄᴋʏ ᴜꜱᴇʀ:** {requester}",
                         reply_markup=keyboard,
                     )
                 except Exception as ep:
