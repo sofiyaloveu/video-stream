@@ -205,7 +205,7 @@ async def play(c: Client, m: Message):
     else:
         if len(m.command) < 2:
             await m.reply(
-                "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
+                "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋😕.**"
             )
         else:
             suhu = await m.reply("😘")
