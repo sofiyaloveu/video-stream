@@ -158,7 +158,7 @@ async def play(c: Client, m: Message):
                     "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
                 )
             else:
-                suhu = await m.reply("**🤔**")
+                suhu = await m.reply("**😘**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
@@ -208,7 +208,7 @@ async def play(c: Client, m: Message):
                 "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
             )
         else:
-            suhu = await m.reply("🤔")
+            suhu = await m.reply("😘")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
