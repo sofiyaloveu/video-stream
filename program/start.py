@@ -54,7 +54,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""**Hᴇʏ Hᴏᴛᴛɪᴇ Sʜᴏᴛᴛɪᴇ {message.from_user.first_name}** \n
 **I Aᴍ A Mᴜsɪᴄ Sᴇʀᴠᴇʀ Fᴏʀ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Vᴏɪᴄᴇ Cʜᴀᴛ & Cʜᴀɴɴᴇʟs 😉🌸 Usᴇ Mᴇ Hᴀʀᴅʟʏ & Eɴᴊᴏʏ Mᴜsɪᴄ Wɪᴛʜ Sᴜᴘᴇʀ Dᴜᴘᴇʀ Qᴜᴀʟɪᴛʏ 😈❣️
-Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [Lᴜᴄᴋʏ 𓆩👅𓆪](https://t.me/cute_boy701)**,
+Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [Lᴜᴄᴋʏ 𓆩👅𓆪](https://t.me/cute_boy701)**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
