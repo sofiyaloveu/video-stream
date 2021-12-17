@@ -62,16 +62,12 @@ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [Lᴜᴄᴋʏ 𓆩👅𓆪](https://t.me/cute_boy
                         url=f"https://t.me/cute_boy701",
                     )
                 ],
-                
-                [
-                    InlineKeyboardButton("🦋 Commands 🦋", callback_data="cbcmds"),
-                ],
                 [
                     InlineKeyboardButton(
-                        "🦋 Official Group 🦋", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🦋 ʟᴜᴄᴋʏ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🦋 Official Channel 🦋", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ʟᴜᴄᴋʏ ᴄʜᴀɴɴᴇʟ 🦋", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
             ]
@@ -91,15 +87,15 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🦋 Group", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🦋 ʟᴜᴄᴋʏ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "🦋 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "ʟᴜᴄᴋʏ ᴄʜᴀɴɴᴇʟ 🦋", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
     )
 
-    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group's video chat** ❤"
+    alive = f"**ʜᴇʏ ʙᴀʙʏ {message.from_user.mention()}, ɪ'ᴍ {BOT_NAME}**\n\n✨ ʙᴏᴛ ɪꜱ ᴡᴏʀᴋɪɴɢ ꜱᴍᴏᴏᴛʜʟʏ\n🍀 ᴍʏ ᴏᴡɴᴇʀ: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ: `v{__version__}`\n🍀 ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀꜱɪᴏɴ: `{pyrover}`\n✨ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ: `{__python_version__}`\n🍀 ᴘʏᴛɢᴄᴀʟʟꜱ ᴠᴇʀꜱɪᴏɴ: `{pytover.__version__}`\n✨ ᴜᴘᴛɪᴍᴇ ꜱᴛᴀᴛᴜꜱ: `{uptime}`\n\n**ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ʜᴇʀᴇ, ꜰᴏʀ ᴘʟᴀʏɪɴɢ ꜱᴏɴɢꜱ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ'ꜱ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
