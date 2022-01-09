@@ -24,5 +24,5 @@ ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/8c5e564422e8c5e0085ca.j
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
 IMG_1 = getenv("IMG_1", "https://telegra.ph/file/3e84ce12b9b3769a728ef.jpg")
-IMG_2 = getenv("IMG_2", "https://telegra.ph/file/3e84ce12b9b3769a728ef.jpg")
+IMG_2 = getenv("IMG_2", "https://www.youtube.com/watch?v={}")
 IMG_3 = getenv("IMG_3", "https://telegra.ph/file/3e84ce12b9b3769a728ef.jpg")
