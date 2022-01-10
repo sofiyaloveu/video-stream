@@ -57,8 +57,8 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="🌸 ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
-                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 🌸", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="💜 ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
+                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 💜", url=f"https://t.me/terayaarhoomai"),
             ]
         ]
     )
@@ -158,7 +158,7 @@ async def play(c: Client, m: Message):
                     "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
                 )
             else:
-                suhu = await m.reply("**💥**")
+                suhu = await m.reply("**⚡**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
@@ -208,7 +208,7 @@ async def play(c: Client, m: Message):
                 "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋😕.**"
             )
         else:
-            suhu = await m.reply("💥")
+            suhu = await m.reply("⚡")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -262,8 +262,8 @@ async def stream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="🌸 ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
-                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 🌸", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="💜 ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
+                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 💜", url=f"https://t.me/terayaarhoomai"),
             ]
         ]
     )
