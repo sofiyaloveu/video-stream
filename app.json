@@ -9,7 +9,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/terayaarhoomai",
-    "repository": "https://github.com/mrvk1703/video-stream",
+    "repository": "https://github.com/levina-lab/video-stream",
     "success_url": "https://t.me/dlwrml",
     "env": {
         "API_ID": {
