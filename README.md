@@ -68,8 +68,6 @@ The easy way to host this bot, deploy to Heroku, Change the app country to Europ
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mrvk1703/video-stream)
 
-[![ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Mrvk1703/video-stream&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,OWNER_NAME,ALIVE_NAME,ASSISTANT_NAME,BOT_OWNER,GROUP_SUPPORT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
-
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
 
