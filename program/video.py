@@ -63,8 +63,8 @@ async def vplay(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="🥀ᴏᴡɴᴇʀ🥀", url=f"https://t.me/cute_boy701"),
-                InlineKeyboardButton(text="🥀𝕊𝕌ℙℙ𝕆ℝ𝕋🥀", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="🥀ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
+                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🥀", url=f"https://t.me/terayaarhoomai"),
             ]
         ]
     )
@@ -84,9 +84,6 @@ async def vplay(c: Client, m: Message):
         await m.reply_text(
             "missing required permission:" + "\n\n» ❌ __Manage video chat__"
         )
-        return
-    if not a.can_invite_users:
-        await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
         return
     try:
         ubot = await user.get_me()
@@ -117,7 +114,7 @@ async def vplay(c: Client, m: Message):
 
     if replied:
         if replied.video or replied.document:
-            loser = await replied.reply("💥")
+            loser = await replied.reply("ᴡᴀɪᴛ ᴘᴏᴘᴜ ᴡᴀɪᴛ 😙")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -178,7 +175,7 @@ async def vplay(c: Client, m: Message):
                     "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
                 )
             else:
-                loser = await m.reply("💥")
+                loser = await m.reply("ᴡᴀɪᴛ ᴘᴏᴘᴜᴜ ᴡᴀɪᴛ 😙")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 Q = 720
@@ -232,7 +229,7 @@ async def vplay(c: Client, m: Message):
                 "**>> ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ🦋🧐.**"
             )
         else:
-            loser = await m.reply("💥")
+            loser = await m.reply("ᴡᴀɪᴛ ᴘᴏᴘᴜᴜ ᴡᴀɪᴛ")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
@@ -288,8 +285,8 @@ async def vstream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="🥀ᴏᴡɴᴇʀ🥀", url=f"https://t.me/cute_boy701"),
-                InlineKeyboardButton(text="🥀𝕊𝕌ℙℙ𝕆ℝ𝕋🥀", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="🥀ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
+                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🥀", url=f"https://t.me/terayaarhoomai"),
             ]
         ]
     )
@@ -309,9 +306,6 @@ async def vstream(c: Client, m: Message):
         await m.reply_text(
             "missing required permission:" + "\n\n» ❌ __Manage video chat__"
         )
-        return
-    if not a.can_invite_users:
-        await m.reply_text("missing required permission:" + "\n\n» ❌ __Add users__")
         return
     try:
         ubot = await user.get_me()
